@@ -29,7 +29,7 @@ public class StatisticsGUI {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         try {
-            backgroundImage = ImageIO.read(new File("C:/Users/dylan/MyRepos/EpicFXWorking/src/main/resources/com/example/EPICFX/your-scores.png"
+            backgroundImage = ImageIO.read(new File("C:/Users/dylan/MyRepos/EpicEndevour2/src/main/resources/com/example/EPICFX/your-scores.png"
             ));
         } catch (IOException var14) {
             var14.printStackTrace();

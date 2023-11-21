@@ -26,7 +26,7 @@ public class LeaderboardGUI {
 
         try {
             // Load the background image from a file.
-            backgroundImage = ImageIO.read(new File("C:/Users/dylan/MyRepos/EpicFXWorking/src/main/resources/com/example/EPICFX/ldrboard.png"));
+            backgroundImage = ImageIO.read(new File("C:/Users/dylan/MyRepos/EpicEndevour2/src/main/resources/com/example/EPICFX/ldrboard.png"));
 
             panel = new JPanel() {
                 @Override

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.EPICFX.ChooseGamemode">
+   <children>
+      <ImageView fitHeight="411.0" fitWidth="600.0" layoutY="-2.0" pickOnBounds="true">
+         <image>
+            <Image url="@quiz.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="intermediateButton" layoutX="177.0" layoutY="215.0" mnemonicParsing="false" onAction="#runIntermediate" prefHeight="64.0" prefWidth="246.0" style="-fx-background-color: lightgreen;" text="Intermediate">
+         <font>
+            <Font name="Britannic Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="hardButton" layoutX="177.0" layoutY="294.0" mnemonicParsing="false" onAction="#runHard" prefHeight="64.0" prefWidth="246.0" style="-fx-background-color: red;" text="Hard">
+         <font>
+            <Font name="Britannic Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="beginnerButton" layoutX="177.0" layoutY="140.0" mnemonicParsing="false" onAction="#runBeginner" prefHeight="64.0" prefWidth="246.0" style="-fx-background-color: lightblue;" text="Beginner">
+         <font>
+            <Font name="Britannic Bold" size="24.0" />
+         </font>
+      </Button>
+      <Text fill="#4400ff" layoutX="71.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose Your Game Mode" textAlignment="CENTER" wrappingWidth="458.13665771484375">
+         <font>
+            <Font name="Broadway" size="43.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

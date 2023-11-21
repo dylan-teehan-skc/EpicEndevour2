@@ -1,0 +1,17 @@
+-What is the time complexity of a binary search algorithm? | O(n) | O(log n) | O(n log n) | O(1) | 1
+-What is a lambda expression in programming? | A type of mathematical function. | An anonymous function or method. | A class in object-oriented programming. | A constant variable. | 1
+-What is the P versus NP problem in computational theory? | A problem in number theory. | A question about the efficiency of algorithms. | A challenge in graph theory. | A problem in set theory. | 1
+-What is pipelining in computer architecture? | A technique to organize data in memory. | The process of breaking down instructions into stages. | A method for connecting multiple CPUs. | The transfer of data between cache and main memory. | 1
+-What is the purpose of the 'volatile' keyword in Java? | Specify that a variable may be changed by multiple threads. | Indicate a constant value. | Define a static method. | Allocate memory for a variable. | 0
+-What is the purpose of a GPU (Graphics Processing Unit)? | Execute database queries. | Process and render graphics. | Perform complex scientific calculations. | Manage network connections. | 2
+-What is the concept of modular arithmetic? | A method for solving differential equations. | The study of continuous mathematical structures. | Arithmetic operations performed on remainders. | A type of geometric transformation. | 2
+-What is the significance of Gödel's incompleteness theorems? | They prove the existence of an absolute truth. | They demonstrate the limitations of formal systems. | They establish a new axiom in mathematics. | They define the concept of infinity. | 1
+-What is the purpose of cache memory in a computer system? | Store data permanently. | Provide additional RAM. | Increase the speed of data access. | Manage input and output devices. | 2
+-What is the time complexity of the quicksort algorithm in the average case? | O(n) | O(log n) | O(n log n) | O(1) | 2
+-In object-oriented programming, what is encapsulation? | A way to achieve multiple inheritance. | The bundling of data and methods that operate on the data. | A method for handling exceptions. | The process of converting objects into primitive data types. | 1
+-What is the purpose of the 'finally' block in a try-catch-finally statement in programming? | To specify code that should always be executed, whether an exception is thrown or not. | To handle runtime errors. | To define variables with constant values. | To indicate the end of a loop. | 0
+
+
+
+
+

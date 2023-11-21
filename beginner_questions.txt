@@ -1,0 +1,13 @@
+
+- What does HTML stand for? | HyperText Markup Language | High-Level Text Machine Language | HyperText and links Markup Language | Hyper Transfer Markup Language | 0
+- Which programming language is known for its readability and simplicity? | Java | Python | C++ | Ruby | 1
+- How is HTML different from plain text? | HTML is a programming language, while plain text is not. | HTML provides structure and formatting to content, while plain text does not. | HTML is only used for web development, while plain text has broader applications. | HTML files are always larger in size compared to plain text files. | 1
+- What does CPU stand for? | Central Processing Unit | Central Peripheral Unit | Computer Processing Unit | Central Processor Unit | 0
+- Which of the following is an example of a volatile memory? | Hard Disk Drive (HDD) | Solid State Drive (SSD) | Random Access Memory (RAM) | Read-Only Memory (ROM) | 3
+- What is the primary function of the Control Unit in a CPU? | Perform arithmetic operations. | Manage memory access times. | Execute instructions. | Control the flow of data within the CPU. | 3
+- What is the definition of a set in discrete mathematics? | An ordered sequence of elements. | A collection of unordered elements. | A mathematical operation. | A logical condition. | 1
+- What does the symbol ∑ represent in discrete mathematics? | Intersection | Union | Summation | Complement | 2
+- Which of the following is an example of a tautology in propositional logic? | p ∧ ~p | p ∨ ~p | p → ~p | p ↔ ~p | 1
+-What does CSS stand for? | Computer Style Sheets | Creative Style Sheets | Cascading Style Sheets | Colorful Style Sheets | 2
+-Which programming language is commonly used for front-end web development? | Python | JavaScript | Ruby | PHP | 1
+-What is the purpose of a variable in programming? | To store and manipulate data | To display information on the screen | To perform mathematical calculations | To control the flow of program execution | 0

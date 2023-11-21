@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="476.0"
+            prefWidth="653.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.EPICFX.RegisterUser">
+    <children>
+        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true"
+                   preserveRatio="true"/>
+        <ImageView fitHeight="476.0" fitWidth="667.0" layoutX="-6.0" pickOnBounds="true">
+            <image>
+                <Image url="@registerpic.jpg"/>
+            </image>
+        </ImageView>
+        <Text layoutX="137.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0"/>
+        <ImageView fitHeight="409.0" fitWidth="322.0" layoutX="166.0" layoutY="60.0" pickOnBounds="true">
+            <image>
+                <Image url="@Rectangle01-DarkBlue.png"/>
+            </image>
+        </ImageView>
+        <Text fill="WHITE" layoutX="214.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign Up">
+            <font>
+                <Font name="System Bold" size="25.0"/>
+            </font>
+        </Text>
+        <TextField fx:id="newUsernameEmail" layoutX="215.0" layoutY="182.0" prefHeight="26.0" prefWidth="190.0"
+                   promptText="Username(Email)"/>
+        <Button fx:id="signUpButton" layoutX="259.0" layoutY="349.0" mnemonicParsing="false" onAction="#ValidateUser"
+                prefHeight="30.0" prefWidth="102.0" text="Sign Up!"/>
+        <PasswordField fx:id="newPassword" layoutX="215.0" layoutY="231.0" prefHeight="26.0" prefWidth="190.0"
+                       promptText="Password"/>
+        <PasswordField fx:id="newConfirmPassword" layoutX="215.0" layoutY="282.0" prefHeight="26.0" prefWidth="190.0"
+                       promptText="Confirm Password"/>
+        <Text fx:id="Success" fill="WHITE" layoutX="215.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0"
+              wrappingWidth="232.0"/>
+    </children>
+</AnchorPane>
